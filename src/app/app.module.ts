@@ -8,7 +8,7 @@ import { HomeComponentComponent } from './home-component/home-component.componen
 
 @NgModule({
   imports: [BrowserModule, FormsModule],
-  declarations: [AppComponent, HelloComponent, HomeComponentComponent],
-  bootstrap: [AppComponent],
+  declarations: [AppComponent, HelloComponent],
+  bootstrap: [AppComponent, HomeComponentComponent],
 })
 export class AppModule {}
